@@ -16,5 +16,6 @@ module.exports = {
         'linebreak-style': ['error', 'windows'],
         quotes: ['error', 'single'],
         semi: ['error', 'always']
-    }
+    },
+    settings: { react: { version: 'detect' } }
 };
