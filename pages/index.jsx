@@ -1,14 +1,14 @@
 import React from 'react';
 
-// Import components
-import { Navbar } from '@components/navbar';
+// Import templates
+import { Header } from '@templates/Header';
 
 const Home = () => {
     return (
-        <div>
-            <Navbar/>
-            at Home
-        </div>
+        <React.Fragment>
+            <Header/>
+            
+        </React.Fragment>
     );
 };
 

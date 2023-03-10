@@ -6,7 +6,8 @@
             "@components/*": ["./src/components/*"],
             "@templates/*": ["./src/templates/*"],
             "@utils/*": ["./src/utils/*"],
-            "@styles/*": ["./src/styles/*"]
+            "@styles/*": ["./src/styles/*"],
+            "@assets/*": ["./src/assets/*"]
         }
     },
     "exclude": ["node_modules"]
