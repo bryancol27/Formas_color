@@ -9,20 +9,21 @@ import video from '/public/videos/video1.mp4';
 const HeaderVideo = () => {
     return (
         <HeaderContainer>
-            <div className='videoContainer'>
+            <div className="video__Cover">
                 <video autoPlay muted loop>
-                    <source src={video} type='video/mp4'/>
+                    <source src={video} type="video/mp4" />
                 </video>
             </div>
 
-            <div className="titleContainer">
-                <h3>Agencia Publicitaria</h3>
+            <div className="text">
+                <h1>Agencia Publicitaria</h1>
+                <p>
+                    Somos una empresa con más de 20 años de experiencia en el
+                    ambiente publicitario, brindando soluciones y calidad de
+                    trabajos
+                </p>
 
-                <div className='subcontent'>
-                    <p>Somos una empresa con más de 20 años de experiencia en el ambiente publicitario, brindando soluciones y calidad de trabajos</p>
-
-                    <button className="cta">Servicios</button>
-                </div>
+                <button className="cta">Servicios</button>
             </div>
         </HeaderContainer>
     );

@@ -8,6 +8,9 @@ const GlobalComponents = css`
         padding: 0;
         box-sizing: border-box;
     }
+    body{
+        margin-top: 60px;
+    }
 `;
 
 const GlobalComponent = () => {

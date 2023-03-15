@@ -7,7 +7,7 @@
             "@templates/*": ["./src/templates/*"],
             "@utils/*": ["./src/utils/*"],
             "@styles/*": ["./src/styles/*"],
-            "@assets/*": ["./src/assets/*"]
+            "@assets/*": ["./src/assets/*"],
         }
     },
     "exclude": ["node_modules"]
