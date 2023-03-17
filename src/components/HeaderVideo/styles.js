@@ -19,8 +19,6 @@ export const HeaderContainer = styled.header`
         mask-position: left;
         mask-repeat: no-repeat;
         mask-size: 100%;
-
-       
     }
 
     .text {
