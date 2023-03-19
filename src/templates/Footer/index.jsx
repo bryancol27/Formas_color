@@ -6,9 +6,9 @@ const Footer = () => {
         <FooterStyled>
             <div className="imgs">
                 <figure>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <img src='' alt='' />
+                    <img src='' alt='' />
+                    <img src='' alt='' />
                 </figure>
             </div>
             <div className="info">

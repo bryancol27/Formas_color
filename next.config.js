@@ -1,4 +1,6 @@
-module.exports = {
+const withFonts = require('next-fonts');
+
+module.exports = withFonts({
     // ...
     webpack: (config) => {
         config.module.rules.push({
@@ -8,6 +10,7 @@ module.exports = {
                 options: {
                     publicPath: '/_next/static/videos/',
                     outputPath: 'static/videos/',
+                    outputPath: 'fonts/',
                     name: '[name].[hash].[ext]',
                     esModule: false
                 }
@@ -16,4 +19,4 @@ module.exports = {
 
         return config;
     }
-};
+});
