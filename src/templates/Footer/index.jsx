@@ -6,9 +6,16 @@ const Footer = () => {
         <FooterStyled>
             <div className="imgs">
                 <figure>
-                    <img src='' alt='' />
-                    <img src='' alt='' />
-                    <img src='' alt='' />
+                    <img src='/Footer/Bombillo.png' alt='' />
+                    <figcaption>Innovador</figcaption>
+                </figure>
+                <figure>
+                    <img src='/Footer/estrella.png' alt='' />
+                    <figcaption>Servicio de calidad</figcaption>
+                </figure>
+                <figure>
+                    <img src='/Footer/llave.png' alt='' />
+                    <figcaption>Garantia</figcaption>
                 </figure>
             </div>
             <div className="info">
