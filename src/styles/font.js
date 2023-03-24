@@ -7,6 +7,8 @@ import poppins_regular from 'public/font/Poppins-Regular.ttf';
 import poppins_semibold from 'public/font/Poppins-SemiBold.ttf';
 
 export const fontStyles = css`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
     @font-face {
         font-family: 'poppins-bold';
         font-display: auto;
