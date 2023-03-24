@@ -13,12 +13,12 @@ export const FooterStyled = styled.footer`
 
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: space-between;
     gap: 20px;
     /* align-items: flex-end; */
 
     .imgs {
-        min-height: 350px;
+        min-height: 20%;
         display: flex;
         justify-content: space-around;
         align-items: center;
