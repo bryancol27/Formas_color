@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
     justify-content: center;
     align-items: center;
     padding: 0px 1rem;
+    position: relative;
 
     .video__Cover {
         width: 80%;
@@ -22,6 +23,8 @@ export const HeaderContainer = styled.header`
     }
 
     .text {
+        max-width: 700px;
+        min-width: 330px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -47,5 +50,19 @@ export const HeaderContainer = styled.header`
             background: #ff0048;
             font-weight: bold;
         }
+    }
+
+    .blueBg {
+        position: absolute;
+    }
+
+    .superiorBg {
+        top: 0;
+        left: 10%;
+    }
+
+    .inferiorBg {
+        bottom: 0;
+        right: 50%;
     }
 `;

@@ -3,8 +3,13 @@ import React from 'react';
 // Import styled
 import { HeaderContainer } from './styles';
 
-// Import videos
+// Import videos asset
 import video from '/public/videos/video1.mp4';
+
+// Import imagen assets
+import Image from 'node_modules/next/image';
+import bg1 from '/public/logos/inferior azul.png';
+import bg2 from '/public/logos/superior azul.png';
 
 const HeaderVideo = () => {
     return (
@@ -25,6 +30,9 @@ const HeaderVideo = () => {
 
                 <button className="cta">Servicios</button>
             </div>
+
+            <Image src={bg1} className='inferiorBg blueBg' alt="BackgroundOnly" width={200} height={200}/>
+            <Image src={bg2} className='superiorBg blueBg' alt="BakcgroundOnly" width={200} height={200}/>
         </HeaderContainer>
     );
 };
