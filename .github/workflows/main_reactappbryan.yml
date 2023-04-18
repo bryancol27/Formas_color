@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'reactAppBryan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1AFBA6279D0E43A9AEF85160F13272D6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A225929FF8741E49E8C5E8D20836203 }}
           package: .
