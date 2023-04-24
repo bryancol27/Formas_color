@@ -6,10 +6,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
 import { Pagination, Autoplay } from 'swiper';
 //import styles swiper
-// import '../../styles/swiper.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { CardWork } from '@components/card/index';
+
+// Import data
+import { InfoWorks } from '@utils/infoWorks';
 
 const Works = () => {
     return (
@@ -20,22 +22,18 @@ const Works = () => {
                 <Swiper
                     slidesPerView="3"
                     breakpoints={{
-                        // when window width is >= 320px
                         320: {
                             slidesPerView: 1,
                             spaceBetween: 20
                         },
-                        // when window width is >= 500px
                         500: {
                             slidesPerView: 2,
                             spaceBetween: 30
                         },
-                        // when window width is >= 750px
                         750: {
                             slidesPerView: 3,
                             spaceBetween: 30
                         },
-                        // when window width is >= 950px
                         950: {
                             slidesPerView: 3,
                             spaceBetween: 40
@@ -53,24 +51,13 @@ const Works = () => {
                     }}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardWork />
-                    </SwiperSlide>
+                    {
+                        InfoWorks.map((element, i) => (
+                            <SwiperSlide key={i}>
+                                <CardWork src={element} />
+                            </SwiperSlide>
+                        ))
+                    }
                 </Swiper>
             </div>
             <div className="parasoles">

@@ -1,10 +1,12 @@
 import React from 'react';
 import { CardWorkStyled } from './styles';
 
-const CardWork = () => {
+import Image from 'node_modules/next/image';
+
+const CardWork = ({src}) => {
     return (
         <CardWorkStyled>
-            <h1>card</h1>
+            <Image src={src} alt="" width="100" height="100"/>
         </CardWorkStyled>
     );
 };

@@ -6,4 +6,12 @@ export const CardWorkStyled = styled.div`
     height: 300px;
     background: #fff;
     border-radius: 10px;
+
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 `;
