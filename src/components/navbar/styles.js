@@ -21,6 +21,7 @@ export const NavbarElement = styled.nav`
         li {
             a {
                 text-decoration: none;
+                color: #4a4a4a;
             }
         }
     }

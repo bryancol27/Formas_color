@@ -1,4 +1,4 @@
-export const InfoWorks = [
+export const generalWorks = [
     '/works/parasoles/Acrilico Angus burger2.png',
     '/works/parasoles/Acrilico Encanto.png',
     '/works/parasoles/Avis Acrilico las plamas.png',
@@ -42,4 +42,10 @@ export const InfoWorks = [
     '/works/parasoles/AVISO POPSY.png',
     '/works/parasoles/Aviso Neon2.png',
     '/works/parasoles/Aviso Morata en acrilico.png'
+];
+
+export const neonSigns = [
+    '/works/neonSigns/IMG_20230314_223631.jpg',
+    '/works/neonSigns/IMG_20230427_194811_1.jpg',
+    '/works/neonSigns/IMG_20230427_195007.jpg'
 ];

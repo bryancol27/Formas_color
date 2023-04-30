@@ -3,7 +3,7 @@ import { FooterStyled } from './styles';
 
 const Footer = () => {
     return (
-        <FooterStyled>
+        <FooterStyled id="contact">
             <div className="imgs">
                 <figure>
                     <img src='/Footer/Bombillo.png' alt='' />

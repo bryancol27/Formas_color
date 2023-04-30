@@ -13,7 +13,7 @@ import bg2 from '/public/logos/superior azul.png';
 
 const HeaderVideo = () => {
     return (
-        <HeaderContainer>
+        <HeaderContainer id="inicio">
             <div className="video__Cover">
                 <video autoPlay muted loop>
                     <source src={video} type="video/mp4" />
