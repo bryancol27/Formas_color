@@ -45,7 +45,7 @@ export const generalWorks = [
 ];
 
 export const neonSigns = [
-    '/works/neonSigns/IMG_20230314_223631.jpg',
-    '/works/neonSigns/IMG_20230427_194811_1.jpg',
-    '/works/neonSigns/IMG_20230427_195007.jpg'
+    '/works/neonSigns/Aviso Cuadradado.png',
+    '/works/neonSigns/Aviso redondo.png',
+    '/works/neonSigns/3.png'
 ];

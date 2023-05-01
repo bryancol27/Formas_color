@@ -12,9 +12,9 @@ const Works = () => {
         <WorksStyled id="works">
 
             {/* GeneralWorks */}
-            <SwiperWork info={generalWorks} title={'TRABAJOS'} ligthVersion={false}/>
-
             <SwiperWork info={neonSigns} title={'NEON SIGNS'} ligthVersion={true}/>
+
+            <SwiperWork info={generalWorks} title={'TRABAJOS'} ligthVersion={false}/>
 
             <div className="parasoles" id='services'>
                 <div className="images">
