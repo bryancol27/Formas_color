@@ -5,18 +5,31 @@ import { WorksStyled } from './styles';
 import { SwiperWork } from '@components/swiperWorks';
 
 // Import utils
-import { generalWorks, neonSigns } from '@utils/infoWorks';
+import { generalWorks, neonSigns, avisosAcrilicos } from '@utils/infoWorks';
 
 const Works = () => {
     return (
         <WorksStyled id="works">
-
             {/* GeneralWorks */}
-            <SwiperWork info={neonSigns} title={'NEON SIGNS'} ligthVersion={true}/>
+            <SwiperWork
+                info={neonSigns}
+                title={'NEON SIGNS'}
+                ligthVersion={true}
+            />
 
-            <SwiperWork info={generalWorks} title={'TRABAJOS'} ligthVersion={false}/>
+            <SwiperWork
+                info={generalWorks}
+                title={'TRABAJOS'}
+                ligthVersion={false}
+            />
 
-            <div className="parasoles" id='services'>
+            <SwiperWork
+                info={avisosAcrilicos}
+                title={'AVISOS EN ACRILICO'}
+                ligthVersion={true}
+            />
+
+            <div className="parasoles" id="services">
                 <div className="images">
                     <div className="one">
                         <figure>
